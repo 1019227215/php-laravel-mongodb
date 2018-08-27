@@ -20,3 +20,6 @@ php-laravel备份mongo数据库
 nohup /usr/local/php/bin/php /data/www/php-script/artisan Back:UpData --orgdb='127.0.0.1,10011,bas,admin,admin;127.0.0.1,10012,bas,admin,admin;127.0.0.1,10013,bas,admin,admin' --trgdb='10.20.20.66,25001,bas,admin,admin;10.20.20.21,25001,bas,admin,admin;10.20.20.68,25001,bas,admin,admin' > /data/mongobak/logs/sync.log 2>&1 &
 
 首先需要在本地把端口映射好，然后账号需要有集合列表查询和oplog查询权限。这里是按集群分片备份列子，单台只留一个。
+
+
+QQ群：234466427 
